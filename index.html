@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Class-07</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="container-fluid header">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-1 text-center">
+        <img src="cpi logo" class="img-fluid rounded-circle" width="70" alt="Logo">
+      </div>
+      <div class="col-md-11 text-start">
+        <h3 class="title">Muzahid Hasan</h3>
+        <h5 class="title">Roll: 875523</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="col-md-1 text-center">
+      <img src="me logo.jpg" class="img-fluid rounded-circle" width="50" alt="Logo">
+    </div>
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">CPI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Supports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide position-relative" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/54bd6a40eb3759aca46966aadd4c4d0d84b2713e/header.jpg?t=1760025766" class="d-block w-100 carousel-img" alt="Banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/075556d5-d706-4d17-a76e-1f403be46b3b/151916978/free-fire-gameloop-FF-1%20(1).png" class="d-block w-100 carousel-img" alt="Banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn-www.bluestacks.com/bs-images/featured_com.tencent.ig.jpg" class="d-block w-100 carousel-img" alt="Banner 3">
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="carousel-overlay d-flex align-items-center">
+      <img src="mujahid logo.png" alt="Logo" width="60" height="60" class="me-3 rounded-circle border border-light shadow-sm">
+      <div class="header-site-info text-light">
+        <span id="site-name" class="fw-bold fs-5 d-block">
+          <a href="#" class="text-light text-decoration-none">Mujahid Hasan</a>
+        </span>
+        <span id="slogan" class="fs-6">Kotbari, Cumilla</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container my-4">
+    <div class="row g-3">
+
+      <div class="col-md-8">
+        <div class="p-3 bg-white rounded shadow-sm">
+          <h4 class="mb-3 text-primary">Welcome to gaming world</h4>
+          <p>
+            Call of Duty, Free Fire, and PUBG Mobile are among the most popular mobile games in the world. 
+            They are primarily action and shooting games, where players use various weapons and strategies to compete against each other.
+            Call of Duty, originally a console and PC game, offers highly realistic graphics and intense combat experience on mobile. 
+            Free Fire is known for its fast-paced gameplay and can be easily played on low-end devices.
+            PUBG Mobile is a battle royale game where 100 players land on an island and fight to be the last one standing.
+            These games not only provide entertainment but also improve strategic thinking, teamwork, and quick decision-making skills. 
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <!-- CEO -->
+        <div class="sidebar text-center">
+          <h4>CEO</h4>
+          <img src="ceo image.jpg" class="img-fluid rounded" width="60%" alt="">
+          <p class="mt-2 mb-1 fw-semibold">Muzahid Hasan</p>
+          <a href="#">View Profile</a>
+        </div>
+
+        <!-- Partner -->
+        <div class="sidebar text-center">
+          <h4>CO-FOUNDER</h4>
+          <img src="partner.jpg" class="img-fluid rounded" width="60%" alt="">
+          <p class="mt-2 mb-1 fw-semibold">MD.Niloy</p>
+          <a href="#">View Profile</a>
+        </div>
+
+        <!-- Google Map -->
+        <div class="sidebar">
+          <h4>Google Map</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.8597853808237!2d91.1340534!3d23.429431699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547c2a89dc0e21%3A0x92ecd3ffe3c1214b!2sCumilla%20Cadet%20College!5e0!3m2!1sen!2sbd!4v1760809077101!5m2!1sen!2sbd" width="100%" height="250" style="border:0;" allowfullscreen></iframe>
+        </div>
+
+        <!-- Calendar -->
+        <section class="sidebar card p-3 mb-4 shadow-sm">
+          <h4 class="card-header p_ple bg-warning text-dark">Academic Calendar</h4>
+          <div class="ratio ratio-4x3 card-body p-0">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&..." style="border:0" width="100%" height="300"></iframe>
+          </div>
+        </section>
+
+        <!-- Links -->
+        <div class="sidebar">
+          <h4>Important Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">BTEB</a></li>
+            <li><a href="#">DTE</a></li>
+            <li><a href="#">Ministry of Education</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-glow mt-5">
+    <div class="container py-5">
+      <div class="row gy-4 text-center text-md-start">
+        
+        <div class="col-md-3">
+          <h4 class="fw-bold text-light mb-3">Cumilla Polytechnic Institute</h4>
+          <p class="small mb-1 text-secondary">© 2025 All Rights Reserved.</p>
+          <p class="small mb-0 text-secondary">Designed by <span class="text-info">CPI Students</span></p>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="fw-semibold mb-3 text-light">Quick Links</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#"><i class="bi bi-house-door"></i> Home</a></li>
+            <li><a href="#"><i class="bi bi-info-circle"></i> About us</a></li>
+            <li><a href="#"><i class="bi bi-telephone"></i> Privacy Policy</a></li>
+            <li><a href="#"><i class="bi bi-images"></i> Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="fw-semibold mb-3 text-light">Address</h5>
+          <p><i class="bi bi-geo-alt-fill text-info"></i> Kotbari, Cumilla, Bangladesh</p>
+          <p><i class="bi bi-envelope text-info"></i>mujahidhasan627gmail.com</p>
+          <p><i class="bi bi-telephone-forward text-info"></i> +880161XXXXXXX</p>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="fw-semibold mb-3 text-light">Follow Us</h5>
+          <div class="d-flex justify-content-center justify-content-md-start gap-3">
+            <a href="https://www.facebook.com/mujahid.hasan.482754" target="_blank" class="social-icon facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://youtube.com/@mujahidhasan-y5v" target="_blank" class="social-icon youtube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/accounts/edit/?hl=en" target="_blank" class="social-icon instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com/YOUR_TWITTER_USERNAME" target="_blank" class="social-icon twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" class="social-icon linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

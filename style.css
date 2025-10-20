@@ -1,0 +1,128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #c4c6c5ef;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(90deg, #20d9e6d0, #3bbfd1d7);
+  color: #eff0ed;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.header img {
+  border: 3px solid #fff;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #bb5cc5dc !important;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.header-site-info {
+  margin-top: 5px;
+}
+
+#site-name a {
+  color: #ffffffdd;
+  text-decoration: none;
+}
+
+#site-name a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.sidebar h4 {
+  background: #85c44b;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.sidebar a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #212529;
+  color: #ddd;
+  padding: 30px 0;
+}
+
+footer h4,
+footer h5 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #ab0000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #0d6efd;
+}
+
+/* Social Icons */
+.social-icon i {
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-icon.facebook i { color: #1877f2; }
+.social-icon.youtube i { color: #ff0000; }
+.social-icon.instagram i { color: #e1306c; }
+.social-icon.twitter i { color: #1da1f2; }
+.social-icon.linkedin i { color: #0077b5; }
+
+.social-icon i:hover { opacity: 0.8; }
